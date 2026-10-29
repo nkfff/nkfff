@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+  <title id="title">David — flowing abstract engineering banner</title>
+  <desc id="desc">A calm graphite banner with slowly moving blue and silver light ribbons, expressing fluidity, precision, and engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171d22"/>
+      <stop offset=".52" stop-color="#10161b"/>
+      <stop offset="1" stop-color="#090e12"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="76%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#28678a" stop-opacity=".25"/>
+      <stop offset=".52" stop-color="#16374b" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#10161b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbonA" x1="0" y1="0" x2="1" y2=".2">
+      <stop offset="0" stop-color="#5c9fc0" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#5c9fc0" stop-opacity=".12"/>
+      <stop offset=".52" stop-color="#8dd4ef" stop-opacity=".72"/>
+      <stop offset=".76" stop-color="#477fa2" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#477fa2" stop-opacity="0"/>
+      <animate attributeName="x1" values="0;-.35;0" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;.65;1" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ribbonB" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#d4e6ed" stop-opacity="0"/>
+      <stop offset=".38" stop-color="#c8dbe2" stop-opacity=".16"/>
+      <stop offset=".56" stop-color="#d5f2fb" stop-opacity=".6"/>
+      <stop offset=".74" stop-color="#6aa9ca" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#6aa9ca" stop-opacity="0"/>
+      <animate attributeName="x1" values="0;.25;0" dur="22s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;.75;1" dur="22s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="fine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#65b5d9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#8ac9e4" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#65b5d9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <pattern id="microgrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#b6cbd4" stroke-width=".55" opacity=".055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1440" height="440" fill="url(#bg)"/>
+  <rect width="1440" height="440" fill="url(#mist)"/>
+  <rect width="1440" height="440" fill="url(#microgrid)"/>
+  <path d="M0 0H1440" stroke="#76b7d8" stroke-width="2" opacity=".75"/>
+  <path d="M0 365H1440" stroke="#c9d8df" stroke-width=".8" opacity=".12"/>
+
+  <g opacity=".92" fill="none" stroke-linecap="round">
+    <path d="M600 390 C760 230 820 430 980 270 S1210 130 1480 205" stroke="#347da5" stroke-width="34" opacity=".13" filter="url(#softGlow)">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite" values="M600 390 C760 230 820 430 980 270 S1210 130 1480 205;M600 360 C760 450 850 170 1010 250 S1230 350 1480 150;M600 390 C760 230 820 430 980 270 S1210 130 1480 205"/>
+    </path>
+    <path d="M600 390 C760 230 820 430 980 270 S1210 130 1480 205" stroke="url(#ribbonA)" stroke-width="2.4" stroke-dasharray="180 44 34 60">
+      <animate attributeName="stroke-dashoffset" from="0" to="-636" dur="26s" repeatCount="indefinite"/>
+      <animate attributeName="d" dur="16s" repeatCount="indefinite" values="M600 390 C760 230 820 430 980 270 S1210 130 1480 205;M600 360 C760 450 850 170 1010 250 S1230 350 1480 150;M600 390 C760 230 820 430 980 270 S1210 130 1480 205"/>
+    </path>
+    <path d="M610 300 C760 150 890 360 1040 205 S1280 70 1480 120" stroke="url(#ribbonB)" stroke-width="1.7" stroke-dasharray="120 52 24 72">
+      <animate attributeName="stroke-dashoffset" from="0" to="536" dur="32s" repeatCount="indefinite"/>
+      <animate attributeName="d" dur="21s" repeatCount="indefinite" values="M610 300 C760 150 890 360 1040 205 S1280 70 1480 120;M610 335 C800 210 900 130 1060 250 S1280 180 1480 90;M610 300 C760 150 890 360 1040 205 S1280 70 1480 120"/>
+    </path>
+    <path d="M650 430 C810 305 900 420 1080 300 S1310 240 1480 300" stroke="url(#fine)" stroke-width="1.1" opacity=".7">
+      <animate attributeName="d" dur="24s" repeatCount="indefinite" values="M650 430 C810 305 900 420 1080 300 S1310 240 1480 300;M650 420 C800 470 900 300 1090 335 S1320 180 1480 280;M650 430 C810 305 900 420 1080 300 S1310 240 1480 300"/>
+    </path>
+    <path d="M730 180 C850 100 940 220 1070 145 S1300 80 1480 40" stroke="url(#fine)" stroke-width=".9" opacity=".48">
+      <animate attributeName="stroke-dashoffset" from="0" to="-380" dur="29s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" values="2 14;8 22;2 14" dur="12s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M610 390 C760 230 820 430 980 270 S1210 130 1480 205" stroke="#8bd8f4" stroke-width="2.2" opacity=".45" filter="url(#glow)"/>
+    <path d="M610 390 C760 230 820 430 980 270 S1210 130 1480 205" stroke="#bfeaff" stroke-width=".7" opacity=".7">
+      <animate attributeName="stroke-dasharray" values="1 18;10 25;1 18" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dashoffset" from="0" to="-280" dur="19s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#9bd7ef">
+    <circle cx="925" cy="319" r="1.6" opacity=".8">
+      <animate attributeName="cy" values="319;292;319" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;.9;.3" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1110" cy="205" r="1.2" opacity=".65">
+      <animate attributeName="cy" values="205;226;205" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.75;.2" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1270" cy="268" r="1.5" opacity=".55">
+      <animate attributeName="cy" values="268;247;268" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.8;.25" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="84" y="94" fill="#83b9d8" font-size="12" letter-spacing="4">PERSONAL / ENGINEERING</text>
+    <text x="80" y="190" fill="#f0f2f3" font-size="68" font-weight="600" letter-spacing="2">DAVID</text>
+    <text x="84" y="232" fill="#c1cbd1" font-size="15" letter-spacing="3">AI  ·  ALGORITHMS  ·  SYSTEMS</text>
+    <path d="M84 258H148" stroke="#6bb4dc" stroke-width="3"/>
+    <text x="84" y="294" fill="#d6dde1" font-size="16">Build useful things.</text>
+    <text x="84" y="319" fill="#8f9da5" font-size="14">Make complexity feel simple.</text>
+    <text x="84" y="391" fill="#7e8b92" font-size="10" letter-spacing="2.5">SCIENTIFIC COMPUTING / SOFTWARE ENGINEERING</text>
+    <text x="1360" y="391" fill="#83b9d8" font-size="10" text-anchor="end" letter-spacing="2.5">FLUIDITY / PRECISION</text>
+  </g>
+</svg>
