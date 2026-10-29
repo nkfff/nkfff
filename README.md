@@ -1,45 +1,26 @@
 <div align="center">
-
-<!-- Typing SVG Header -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=38BDF8&center=true&vcenter=true&width=650&lines=Hi%2C+I'm+David+%F0%9F%90%89;AI+Agent+%26+LLM+Architect;Algorithm+%26+Systems+Engineer;HPC+%26+High-Performance+Software+Developer" alt="Typing SVG" />
-</a>
-
-<p align="center">
-  🚀 <b>Architecting Autonomous AI Agents • Engineering Complex Algorithms • Building Scalable HPC Systems</b>
-</p>
-
-<!-- Social & Contact Badges -->
-<p align="center">
-  <a href="https://github.com/nkfff"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="mailto:1395598907@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
-
+  <img src="./assets/e46-banner.svg" alt="Minimal BMW E46 coupe line art on a graphite background" width="100%" />
+  <p><strong>AI · ALGORITHMS · SYSTEMS</strong></p>
+  <p>Building useful software at the intersection of intelligent systems and scientific computing.</p>
+  <p><a href="https://github.com/nkfff">GitHub</a> &nbsp;·&nbsp; <a href="mailto:1395598907@qq.com">Email</a></p>
 </div>
 
 ---
 
-### ⚡ About Me
+### About
 
-I'm **David**, an interdisciplinary engineer focused on **AI Agents, Algorithm Development, and High-Performance Software Engineering**. 
+I'm David — an engineer working across **AI agents, algorithm design, and high-performance software**. I enjoy turning complex ideas into tools that are useful, reliable, and fast.
 
-With an engineering background spanning **Control/Instrumentation** and **Bio-Computation**, I specialize in taking complex AI models—from single-cell/spatial omics algorithms to autonomous LLM workflows—and turning them into **production-ready, high-throughput software systems**.
+### Selected work
 
-- 🤖 **Autonomous AI Agents & Workflows:** Designing tool-using agentic workflows, multi-agent coordination, and LLM-driven decision engines.
-- 🧬 **Algorithms & Spatial Computing:** Crafting advanced spatial clustering, graph algorithms, and lineage inference engines using C++/Python.
-- ⚡ **HPC & Systems Infrastructure:** Managing distributed HPC clusters (Slurm, Docker, Singularity), optimizing microservices, and deploying private dependency mirrors.
+- **[ClusterBridge](https://github.com/nkfff/ClusterBridge)** — A lightweight SSH relay for cross-cluster file transfers, streaming data through bounded memory.
+- **[MicroEnvForge](https://github.com/nkfff/MicroEnvForge)** — A modular framework for tumor microenvironment scoring.
+- **[SpatialMETA](https://github.com/nkfff/SpatialMETA)** — A spatial multi-omics toolkit; this fork focuses on smoother, more reproducible installation.
 
----
+### Toolkit
 
-### 🛠️ Tech Stack & Ecosystem
+`Python` · `C++` · `R` · `PyTorch` · `Linux` · `CUDA` · `Slurm` · `Docker`
 
-```text
-  ┌────────────────────────────────────────────────────────────────────────┐
-  │                           DAVID'S TECH STACK                           │
-  ├────────────────────────────────────────────────────────────────────────┤
-  │  Core Languages   :: Python • C++ • R • Bash • SQL • C#               │
-  │  AI & Algorithms  :: PyTorch • LangChain • AutoGen • SciPy • OpenCV    │
-  │  HPC & Systems    :: Linux • Slurm • Docker • Singularity • CUDA     │
-  │  Backend & Dev    :: FastAPI • REST APIs • Git • CI/CD • Linux Shell   │
-  └────────────────────────────────────────────────────────────────────────┘
+<div align="center">
+  <sub>Built with curiosity. Designed with intent.</sub>
+</div>
