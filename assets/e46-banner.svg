@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+  <title id="title">David — BMW E46 inspired profile banner</title>
+  <desc id="desc">A restrained graphite banner with a fine-line side profile of a classic E46 coupe and minimal engineering typography.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171d22"/>
+      <stop offset="0.58" stop-color="#101519"/>
+      <stop offset="1" stop-color="#0b0f12"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#202930"/>
+      <stop offset="1" stop-color="#11171b"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#a5b7c1" stroke-width="0.6" opacity="0.12"/>
+    </pattern>
+    <linearGradient id="blueLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3f83ad" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#65b2dc"/>
+      <stop offset="1" stop-color="#3f83ad" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="440" fill="url(#background)"/>
+  <rect width="1440" height="440" fill="url(#grid)"/>
+  <path d="M0 365H1440" stroke="#d4dce0" stroke-width="1" opacity="0.12"/>
+  <path d="M0 0H1440" stroke="#6bb4dc" stroke-width="3" opacity="0.8"/>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="84" y="94" fill="#83b9d8" font-size="13" letter-spacing="4">PERSONAL / ENGINEERING</text>
+    <text x="80" y="190" fill="#f0f2f3" font-size="68" font-weight="600" letter-spacing="2">DAVID</text>
+    <text x="84" y="232" fill="#c1cbd1" font-size="15" letter-spacing="3">AI  ·  ALGORITHMS  ·  SYSTEMS</text>
+    <path d="M84 258H148" stroke="#6bb4dc" stroke-width="3"/>
+    <text x="84" y="294" fill="#d6dde1" font-size="16">Build useful things.</text>
+    <text x="84" y="319" fill="#8f9da5" font-size="14">Make complexity feel simple.</text>
+    <text x="84" y="391" fill="#7e8b92" font-size="10" letter-spacing="2.5">SCIENTIFIC COMPUTING / SOFTWARE ENGINEERING</text>
+  </g>
+
+  <g id="e46-coupe" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="930" cy="354" rx="445" ry="10" fill="#000000" opacity="0.28"/>
+    <path d="M488 303
+      C503 287 531 279 570 273
+      L654 260
+      C680 256 702 238 725 215
+      L753 194
+      C774 179 801 173 834 173
+      L902 175
+      C927 176 950 190 971 210
+      L1002 236
+      C1062 242 1150 248 1230 260
+      C1283 267 1325 279 1354 300
+      L1367 313
+      L1358 321
+      L1303 324
+      C1297 294 1277 276 1249 276
+      C1220 276 1198 296 1191 324
+      L758 324
+      C751 294 731 276 702 276
+      C674 276 651 295 644 324
+      L539 321
+      C514 320 498 314 488 303Z"
+      fill="url(#body)" stroke="#c8d1d6" stroke-width="2.2"/>
+
+    <path d="M705 250L755 203C774 188 796 184 828 184H844V250Z"
+      fill="#18232a" stroke="#8d9da6" stroke-width="1.4"/>
+    <path d="M856 184L897 185C921 186 939 200 957 219L985 249H856Z"
+      fill="#18232a" stroke="#8d9da6" stroke-width="1.4"/>
+    <path d="M845 184V251M1002 236L985 249" fill="none" stroke="#b7c4ca" stroke-width="1.2" opacity="0.8"/>
+
+    <path d="M858 252L853 312M1014 248L1027 313M854 286H1019"
+      fill="none" stroke="#71818a" stroke-width="1.1" opacity="0.85"/>
+    <path d="M872 260L1007 260" fill="none" stroke="#4d9ac4" stroke-width="1.8" opacity="0.9"/>
+    <path d="M981 235L997 231L1007 237L1001 243L988 242Z"
+      fill="#172027" stroke="#c2ccd1" stroke-width="1.3"/>
+    <path d="M495 296L518 291L525 300L506 306Z" fill="#8b9aa2" opacity="0.9"/>
+    <path d="M1331 285L1350 294L1357 302L1335 299Z" fill="#7ca8bf" opacity="0.9"/>
+    <path d="M1010 239C1080 245 1166 251 1230 260" fill="none" stroke="#e0e6e9" stroke-width="1.1" opacity="0.45"/>
+
+    <g>
+      <circle cx="702" cy="315" r="38" fill="#0c1114" stroke="#d4dce0" stroke-width="2.2"/>
+      <circle cx="702" cy="315" r="25" fill="#182027" stroke="#6f8998" stroke-width="1.6"/>
+      <circle cx="702" cy="315" r="5" fill="#aab9c1"/>
+      <path d="M702 290V340M677 315H727M684 297L720 333M720 297L684 333" stroke="#9aaab3" stroke-width="2"/>
+      <circle cx="1249" cy="315" r="38" fill="#0c1114" stroke="#d4dce0" stroke-width="2.2"/>
+      <circle cx="1249" cy="315" r="25" fill="#182027" stroke="#6f8998" stroke-width="1.6"/>
+      <circle cx="1249" cy="315" r="5" fill="#aab9c1"/>
+      <path d="M1249 290V340M1224 315H1274M1231 297L1267 333M1267 297L1231 333" stroke="#9aaab3" stroke-width="2"/>
+    </g>
+    <path d="M528 347H1367" stroke="url(#blueLine)" stroke-width="1.6"/>
+  </g>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="1118" y="390" fill="#83b9d8" font-size="12" letter-spacing="3">E46 / COUPÉ</text>
+    <text x="1360" y="390" fill="#7e8b92" font-size="10" text-anchor="end" letter-spacing="2">FORM FOLLOWS FUNCTION</text>
+  </g>
+</svg>
